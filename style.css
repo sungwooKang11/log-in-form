@@ -1,0 +1,148 @@
+.all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.h2 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.firstName {
+    width: 118.5px;
+    height: 35px;
+}
+.firstName:focus {
+    outline: 1px solid #785EF6;
+}
+
+.lastName {
+    width: 118.5px;
+    height: 35px;
+}
+.lastName:focus {
+    outline:1px solid #785EF6;
+}
+
+.mail {
+    margin-top: 5px;
+}
+
+.email {
+    width: 250px;
+    height: 35px;
+}
+.email:focus {
+    outline:1px solid #785EF6;
+}
+
+.p {
+    margin-top: 5px;
+}
+
+.password {
+    width: 250px;
+    height: 35px;
+}
+.password:focus {
+    outline:1px solid #785EF6;
+}
+
+.confirm {
+    margin-top: 5px;
+}
+
+.confirmPw {
+    width: 250px;
+    height: 35px;
+}
+.confirmPw:focus {
+    outline:1px solid #785EF6;
+}
+
+.btn {
+    margin-top: 5px;
+    width: 258px;
+    height: 35px;
+    background-color: white; 
+    color: #785EF6; 
+    border: 2px solid #785EF6;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    background-color: #785EF6;
+    color: white;
+}
+
+.line { 
+    display: flex;
+    flex-basis: 100%;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.35);
+    font-size: 13px;
+    margin: 8px 0px;
+}
+
+.line::before { 
+    content:""; 
+    flex-grow:1; 
+    margin:0px 16px; 
+    background:rgba(0,0,0,0.35); 
+    height:1px; 
+    font-size:0px; 
+    line-height: 0px; 
+} 
+
+.line::after { 
+    content:""; 
+    flex-grow:1; 
+    margin:0px 16px; 
+    background:rgba(0,0,0,0.35); 
+    height:1px; 
+    font-size:0px; 
+    line-height: 0px; 
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+}
+
+.facebook {
+    width: 126.5px;
+    height: 35px;
+    margin-top: 5px;
+    background-color: white; 
+    color: royalblue; 
+    border: 2px solid royalblue;
+    border-radius: 4px;
+}
+
+.facebook:hover {
+    background-color: royalblue;
+    color: white;
+}
+
+.google {
+    width: 126.5px;
+    height: 35px;
+    margin-top: 5px;
+    background-color: white; 
+    color: #f44336; 
+    border: 2px solid #f44336;
+    border-radius: 4px;
+}
+
+.google:hover {
+    background-color: #f44336;
+    color: white;
+}
+
+
+
+
+
+
